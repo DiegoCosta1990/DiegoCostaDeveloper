@@ -7,3 +7,14 @@
 .text-color {
     color: white;
 }
+
+.section-center{
+    text-align: center;
+}
+
+.imagen-logos{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
