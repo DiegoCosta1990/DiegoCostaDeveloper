@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .fondo {
     background-image: url("back.jpg");
     background-position: center;
@@ -19,7 +19,7 @@
     margin-bottom: 12px;
     margin-top: 12px;
 }
-=======
+
 .fondo {
     background-image: url("back.jpg");
     background-position: center;
@@ -29,4 +29,4 @@
 .text-color {
     color: white;
 }
->>>>>>> eb15257e4c98aeb81531c970c9860ff9b574d64a
+
