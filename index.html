@@ -14,7 +14,7 @@
   <body>
       <!--NAVEGATION BAR -->
       <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#top"><i><b>Diego Alberto Costa</b> </i></a>
+          <a class="navbar-brand" href="#top"><i><b>Diego Alberto Costa</b></i></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -22,7 +22,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Proyects</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
 
               <li class="nav-item">
@@ -30,7 +30,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact me</a>
+                <a class="nav-link" href="#contact">Contact me</a>
               </li>
 
             </ul>
@@ -41,63 +41,65 @@
       <!--JUMBOTRON -->
       <div class="jumbotron jumbotron-fluid fondo">
         <div class="container text-color">
-          <img src="" alt="">
+          <img class="foto rounded" src="yo.jpg" alt="yo">
           <h1 class="display-4">Welcome, I´m Diego Costa!</h1>
           <p class="lead">I make this in order to show you that I can do this kind of stuff, for you or for your Business.</p>
-          <hr class= "my-4">
-          <p>Having a webpage is a must if you want to increase your clients. So, click below and we can work together.</p>
+            <hr class= "my-4">
+          <p>A webpage is a must if you want to increase your clients. Click below and we can work together.</p>
           <p class="lead">
-            <a class="btn btn-info btn-lg" href="#" role="button">Contact me!</a>
+            <a class="btn btn-info btn-lg" href="#contact" role="button">Contact me!</a>
           </p>
           <br>
         </div>
       </div>
       <!--JUMBOTRON -->
-      <!--PROYECTS-->
-      <div class="container p-5">
+      <!--SKILLS-->
+      <div class="container p-5 text-center">
         <div class="row section-center">
-          <h1 class="col-sm-12 mx-auto mb-5 mt-n4"> Technologies Skills </h1>
+          <h1 class="col-sm-12 mx-auto mb-5 mt-n4" id="skills"> Technologies Skills </h1>
           <div class="col-lg-4">
             <img class= "imagen-logos" src="bootstraplogo.png" alt="bootstraplogo">
             <h3>Bootstrap 4</h3>
             <p>I´ve studied HTML5, CSS3, JS and Bootstrap 4 in order to make good looking and resposive webpages.</p>
+            <a class="btn btn-light btn-lg" href="https://wwww.getbootstrap.com" role="button">Visit Bootstrap Page</a>            
           </div>
           <div class="col-lg-4">
             <img class= "imagen-logos" src="php-logo.svg" alt="bootstraplogo">
             <h3>Php 7</h3>
-            <p>I use PHP 7, as an interpreted language to comunicate with the server side (back end)</p>
+            <p>I use PHP 7, as an interpreted language to comunicate with the server side (back end). PHP framework soon (Laravel-Yii-Symphony).</p>
+            <a class="btn btn-light btn-lg" href="https://www.php.net/" role="button">Visit PHP Page</a>  
 
           </div>
           <div class="col-lg-4">
             <img class= "imagen-logos" src="mysql.png" alt="bootstraplogo">
             <h3>MySQL</h3>        
             <p>MySQL and PhpMyAdmin to manage the data in the database. MySQL has a Relational approach to connect the different data stored.</p>
+            <a class="btn btn-light btn-lg" href="https://www.mysql.com/" role="button">Visit MySql Page</a>  
           </div>
         </div>
       </div>
-      <!--PROYECTS-->
-      <!--FOOTER-->
-    <footer class="page-footer font-small unique-color-dark">
+      <!--SKILLS-->
 
+      <!--FOOTER-->
+    <footer class="page-footer font-small unique-color-dark" id="contact">
       <div style="background-image: url('back.jpg')">
         <div class="container">
           <div class="row py-4 d-flex align-items-center">
             <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-              <h6 style="color:white" class="mb-0">Get connected with us on social networks!</h6>
+              <h5 style="color:white" class="mb-0">Get connected with me on social networks!</h6>
             </div>
-
             <div class="col-md-6 col-lg-7 text-center text-md-right">
-              <a class="fb-ic">
-                <i class="fab fa-facebook-f pr-1 white-text mr-4"> </i>
+              <a class="ic" href="https://www.facebook.com/Diego.LBT">
+                <img src="facebook2.png" alt="facebook-icon">
               </a>
-              <a class="tw-ic">
-                <i class="fab fa-twitter white-text mr-4"> </i>
+              <a class="ic" href="https://twitter.com/DiegoCosta2790">
+                <img src="twitter.png" alt="twitter-icon">
               </a>
-              <a class="li-ic">
-                <i class="fab fa-linkedin-in white-text mr-4"> </i>
+              <a class="ic" href="https://www.linkedin.com/in/diego-alberto-costa-36338678/">
+                <img src="linkedin.png" alt="linkedin-icon">
               </a>
-              <a class="ins-ic">
-                <i class="fab fa-instagram white-text"> </i>
+              <a class="ic" href="https://www.instagram.com/diegoalbertocosta/">
+                <img src="instagram.png" alt="instagram-icon">
               </a>
             </div>
           </div>
@@ -109,7 +111,7 @@
             <h6 class="text-uppercase font-weight-bold">Diego Costa Developer</h6>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>Thanks for visit my page. Hope you like it and I´d love being in touch with you or your business.
-              Send me and e-mail to contact with me.
+              Send me an e-mail or a message on the social network to contact with me.
               Love.
             </p>
           </div>
@@ -117,19 +119,24 @@
             <h6 class="text-uppercase font-weight-bold">Contact</h6>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>
-              <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <svg class="bi bi-house" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+              </svg> Calle Cuesta de la fábrica 30, 3°A, Alicante, España.</p>
             <p>
-              <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+              <svg class="bi bi-envelope-fill" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+              </svg> d.costa1990@outlook.com</p>
             <p>
-              <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-            <p>
-              <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+              <svg class="bi bi-person-fill" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg> +34 663614927</p>
 
           </div>
         </div>
       </div>
       <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="#"> Diego Alberto Costa</a>
+        <a href="#top" style="text-decoration: none;"> <i>Diego Alberto Costa</i></a>
       </div>
     </footer>
       <!--FOOTER-->

@@ -29,4 +29,15 @@
 .text-color {
     color: white;
 }
-
+.ic{
+    margin-right: 20px;
+}
+.ic:last-child{
+    margin-right: -20px;
+}
+.foto{
+    float: left;
+    margin-right: 30px;
+    margin-left: 0px;
+    overflow: hidden;
+}
